@@ -1,0 +1,20 @@
+USE homework_2_Lesson2;
+
+CREATE TABLE student_cities
+(
+    id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    city VARCHAR(20) NOT NULL
+);
+
+INSERT INTO student_cities (city) VALUE ("Baranovichi");
+INSERT INTO student_cities (city) values ("Lepel");
+INSERT INTO student_cities (city) values ("Mozyr");
+INSERT INTO student_cities (city) values ("Lida");
+INSERT INTO student_cities (city) values ("Soligorsk");
+INSERT INTO student_cities (city) values ("Krichev");
+INSERT INTO student_cities (city) values ("Ivacevichi");
+INSERT INTO student_cities (city) values ("Miory");
+INSERT INTO student_cities (city) values ("Zhlobin");
+INSERT INTO student_cities (city) values ("Slonim");
+INSERT INTO student_cities (city) values ("Nesvizh");
+INSERT INTO student_cities (city) values ("Krasnaselski");
