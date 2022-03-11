@@ -2,22 +2,22 @@ CREATE DATABASE homeWork_2_Lesson2;
 
 USE homeWork_2_Lesson2;
 
-CREATE TABLE students
+CREATE TABLE StudentCRUDService
 (
     id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
     name VARCHAR(20) NOT NULL,
     last_name VARCHAR(20) NOT NULL
 );
 
-INSERT INTO students (name, last_name) VALUES ("Maxim", "Antanovich");
-INSERT INTO students (name, last_name) VALUES ("Pavel", "Klimov");
-INSERT INTO students (name, last_name) VALUES ("Jana", "Zhak");
-INSERT INTO students (name, last_name) VALUES ("Arkady", "Bulyga");
-INSERT INTO students (name, last_name) VALUES ("Ivan", "Hayel");
-INSERT INTO students (name, last_name) VALUES ("Daniil", "Radkovich");
-INSERT INTO students (name, last_name) VALUES ("Adrian", "Sakharievich");
-INSERT INTO students (name, last_name) VALUES ("Dmitry", "Strelec");
-INSERT INTO students (name, last_name) VALUES ("Alexey", "Semionov");
-INSERT INTO students (name, last_name) VALUES ("Valdemar", "Rataika");
-INSERT INTO students (name, last_name) VALUES ("Katerina", "Zakharenko");
-INSERT INTO students (name, last_name) VALUES ("Aliaksandr", "Dziamieshchyk");
+INSERT INTO StudentCRUDService (name, last_name) VALUES ("Maxim", "Antanovich");
+INSERT INTO StudentCRUDService (name, last_name) VALUES ("Pavel", "Klimov");
+INSERT INTO StudentCRUDService (name, last_name) VALUES ("Jana", "Zhak");
+INSERT INTO StudentCRUDService (name, last_name) VALUES ("Arkady", "Bulyga");
+INSERT INTO StudentCRUDService (name, last_name) VALUES ("Ivan", "Hayel");
+INSERT INTO StudentCRUDService (name, last_name) VALUES ("Daniil", "Radkovich");
+INSERT INTO StudentCRUDService (name, last_name) VALUES ("Adrian", "Sakharievich");
+INSERT INTO StudentCRUDService (name, last_name) VALUES ("Dmitry", "Strelec");
+INSERT INTO StudentCRUDService (name, last_name) VALUES ("Alexey", "Semionov");
+INSERT INTO StudentCRUDService (name, last_name) VALUES ("Valdemar", "Rataika");
+INSERT INTO StudentCRUDService (name, last_name) VALUES ("Katerina", "Zakharenko");
+INSERT INTO StudentCRUDService (name, last_name) VALUES ("Aliaksandr", "Dziamieshchyk");
